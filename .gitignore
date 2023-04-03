@@ -1,0 +1,10 @@
+test.cpp
+lanqiao/
+# 忽略所有的 .log 文件
+*.log
+
+# 忽略 build 目录下的所有文件
+build/
+
+# 但是 build/bin 目录下的文件不忽略
+!build/bin/
